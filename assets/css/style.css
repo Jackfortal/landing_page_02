@@ -2,7 +2,63 @@
     margin: none;
     border: none;
     padding: none;
+    background-color: none;
+    color1: #0c83be;
+    color2: #f4f4f4;
 }
 body {
-    
+    width: 100vw;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.header {
+    width: 100vw;
+    height: 70vh;
+    /* background-color: #f4f4f4; */
+    border: 1px solid red;
+}
+.head_sup_container {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    column-gap: 20px;
+}
+.head_logo_impact {
+    width: 8%;
+    height: 25%;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+.colum_ver{
+    width: 1px;
+    height: 7vh;
+    background-color: darkgray;
+    margin-top: 5vh;
+}
+.head_text_up {
+    margin-top: 5vh;
+    line-height: 18px;
+    font-weight: 600;
+    font-size: 0.7rem;
+    color: #5a5a5c;
+}
+.head_inf_container {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    column-gap: 20px;
+    background-color: 2px red;
+    position: absolute;
+}
+.book_impact {
+    width: 230px;
+    position: relative;
+    margin-left: 430px;
+}
+.text_impact_free{
+    width: 300px;
+    height: 412.69px;
+    border: 2px solid red;
+    margin-left: 600px;
+    position: relative;
 }
