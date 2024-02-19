@@ -14,24 +14,24 @@ body {
 .header {
     width: 100vw;
     height: 70vh;
-    /* background-color: #f4f4f4; */
+    background-color: #f4f4f4;
     border: 1px solid red;
 }
 .head_sup_container {
     width: 100vw;
-    height: 20vh;
+    height: 18vh;
     display: flex;
-    column-gap: 20px;
+    column-gap: 10px;
 }
 .head_logo_impact {
-    width: 8%;
-    height: 25%;
+    width: 10%;
+    height: 35%;
     margin-left: 5vw;
     margin-top: 5vh;
 }
 .colum_ver{
     width: 1px;
-    height: 7vh;
+    height: 6vh;
     background-color: darkgray;
     margin-top: 5vh;
 }
@@ -42,23 +42,55 @@ body {
     font-size: 0.7rem;
     color: #5a5a5c;
 }
-.head_inf_container {
+.head_sub_container {
     width: 100vw;
     height: 50vh;
     display: flex;
     column-gap: 20px;
     background-color: 2px red;
     position: absolute;
+    align-self: center;
 }
 .book_impact {
     width: 230px;
     position: relative;
     margin-left: 430px;
 }
-.text_impact_free{
-    width: 300px;
-    height: 412.69px;
-    border: 2px solid red;
-    margin-left: 600px;
-    position: relative;
+.arrow_img {
+    width: 60px;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 230px;
+    z-index: 1;
+}
+.free_guide_container {
+    width: 500px;
+    height: 270px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.free_g {
+    font-size: 1rem;
+    color: #0c83be;
+    font-weight: bold;
+}
+h1 {
+    font-size: 2.5rem;
+}
+.attract_and {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.button_get {
+    width: 160px;
+    height: 37px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: #e63d27;
+    margin-top: 30px;
 }
