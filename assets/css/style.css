@@ -10,13 +10,12 @@ body {
 }
 header {
     width: 100%;
-    height: 99vh;
-    /* background-color: #e63d27; */
+    height: 85vh;
     background-color: #f4f4f4;
 }
 .head_sup_container {
     width: 100%;
-    height: 33vh;
+    height: 20vh;
     display: flex;
     column-gap: 10px;
     background-color: white;
@@ -29,7 +28,7 @@ header {
 }
 .colum_ver{
     width: 1px;
-    height: 6vh;
+    height: 8vh;
     background-color: darkgray;
     margin-top: 5vh;
 }
@@ -42,7 +41,7 @@ header {
 }
 .head_sub_container {
     width: 100vw;
-    height: 50vh;
+    height: 65vh;
     display: flex;
     justify-content: center;
     column-gap: 20px;
@@ -50,7 +49,9 @@ header {
     align-self: center;
 }
 .head_sub_container_box {
-    width: 750px;
+    width: 60vw;
+    height: 65vh;
+    margin-left: 10vw;
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
@@ -68,7 +69,7 @@ header {
     z-index: 1;
 }
 .free_guide_container {
-    width: 500px;
+    width: 100vw;
     height: 270px;
     margin-top: 40px;
     display: flex;
@@ -84,14 +85,16 @@ h1 {
     font-size: 2.5rem;
 }
 h2 {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     text-align: center;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
 }
 h3 {
     color: #2aa9e0;
 }
 .attract_and {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     font-weight: 600;
     color: #5a5a5c;
 }
@@ -106,23 +109,25 @@ h3 {
 }
 main {
     width: 100%;
-    height: 110vh;
+    height: 170vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-direction: column;
 }
 .main_container {
     width: 60%;
-    height: 110vh;
+    height: 90%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    margin-top: 10vh;
+    margin-top: 5vh;
+    /* aqui */
 }
 .text_main {
-    width: 100%;
+    width: 90%;
     font-size: 0.8rem;
     line-height: 7vh;
     text-align: left;
@@ -140,10 +145,29 @@ ul {
     list-style: none;
 }
 ul li:before {
+    width: 10vw;
+    height: 10vh;
     content: '✓';
     font-weight: bold;
     color: #0c83be;
     margin-right: 1vw;
-    width: 10vw;
-    height: 10vh;
+}
+.share_box {
+    width: 20vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #9ea5aa;
+    font-weight: bold;
+    margin-bottom: 5vh;
+    /* aqui */
+}
+.gradiente_blue {
+    width: 100%;
+    height: 20vh;
+    background: rgb(36,94,142);
+    background: linear-gradient(90deg, rgba(36,94,142,1) 0%, rgba(42,169,224,1) 100%);
+    border: 2px solid red;
+
 }
