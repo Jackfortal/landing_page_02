@@ -107,9 +107,10 @@ h3 {
     background-color: #e63d27;
     margin-top: 30px;
 }
+/* INICIO DA MAIN - PRIMEIRA PARTE */
 main {
     width: 100%;
-    height: 400vh;
+    height: 280vh;
     border: 2px solid red;
     display: flex;
     justify-content: space-around;
@@ -118,21 +119,21 @@ main {
 }
 .main_container_superior {
     width: 60%;
-    height: 130vh;
+    height: 120vh;
     border: 2px solid rgb(10, 187, 33);
-
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    justify-items: center;
-    margin-top: 5vh;
 }
 .text_main {
     width: 90%;
     font-size: 0.8rem;
     line-height: 7vh;
     text-align: left;
+}
+.you_text_cont_sup {
+    margin: 4vh 0vh;
 }
 .font_italic {
     font-style: italic;
@@ -162,21 +163,29 @@ ul li:before {
     align-items: center;
     color: #9ea5aa;
     font-weight: bold;
-    margin-top: 8vh;
-    margin-bottom: 8vh;
+    margin-top: 2vh;
 }
+/* INICIO DA MAIN SEGUNDA PARTE */
 .gradiente_blue_a {
     width: 100vw;
     height: 35vh;
     background: linear-gradient(90deg, rgba(36,94,142,1) 0%, rgba(42,169,224,1) 100%);
-    position: absolute;
+    /* position: absolute; */
+    ma
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.simply_title_container {
+    width: 41%;
+    height: 35vh;
+    background-color: #e63d27;
 }
 .h2_white {
 font-size: 2rem;
     /* color: white; */
-    margin-top: 00vh;
-    position: absolute;
 }
+/* INICIO DA MAIN TERCEIRA PARTE */
 .main_container_inferior {
     width: 41%;
     height: 90vh;
