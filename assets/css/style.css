@@ -109,15 +109,18 @@ h3 {
 }
 main {
     width: 100%;
-    height: 150vh;
+    height: 400vh;
+    border: 2px solid red;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }
-.main_container {
+.main_container_superior {
     width: 60%;
-    height: 90%;
+    height: 130vh;
+    border: 2px solid rgb(10, 187, 33);
+
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -159,34 +162,52 @@ ul li:before {
     align-items: center;
     color: #9ea5aa;
     font-weight: bold;
-    margin-bottom: 5vh;
-
-}
-.gradiente_blue_container {
-    width: 100%;
-    height: 100vh;
-    margin-top: 100vh;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
 }
 .gradiente_blue_a {
-    width: 100%;
-    height: 100%;
-    background: rgb(36,94,142);
+    width: 100vw;
+    height: 35vh;
     background: linear-gradient(90deg, rgba(36,94,142,1) 0%, rgba(42,169,224,1) 100%);
-}
-.gradiente_blue_b {
-    line-height:0;
-    width:0;
-    height:0;
-    border-style: solid;
-    border-color: #2aa9e0 rgba(0, 255, 0, 0) rgba(0, 0, 255, 0) #fc0;
-    border-width: 4vh 100vw 20vh 0vw;
     position: absolute;
-    margin-top: 111.5vh;
 }
 .h2_white {
-    font-size: 2rem;
-    margin-top: 130vh;
+font-size: 2rem;
+    /* color: white; */
+    margin-top: 00vh;
     position: absolute;
-    color: white;
 }
-    
+.main_container_inferior {
+    width: 41%;
+    height: 90vh;
+    border: 2px solid rgb(194, 14, 104);
+    /* apagar apos ajuste */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    column-gap: 50px;
+    padding: 30px;
+    position: relative;
+    margin-top: -50
+}
+.form_box {
+    width: ;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    line-height: 5vh;
+}
+.label {
+    font-weight: bold;
+}
+.input {
+    width: 41vw;
+    height: 5vh;
+    border: 1px solid #5a5a5c;
+    border-radius: 8px;
+    margin-bottom: 2vh;
+}
+.obrigatorio {
+    color: #e63d27;
+}
