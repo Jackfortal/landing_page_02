@@ -183,4 +183,10 @@ ul li:before {
     position: absolute;
     margin-top: 111.5vh;
 }
+.h2_white {
+    font-size: 2rem;
+    margin-top: 130vh;
+    position: absolute;
+    color: white;
+}
     
