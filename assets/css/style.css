@@ -110,7 +110,7 @@ h3 {
 /* INICIO DA MAIN - PRIMEIRA PARTE */
 main {
     width: 100%;
-    height: 280vh;
+    height: 500vh;
     border: 2px solid red;
     display: flex;
     justify-content: space-around;
@@ -188,7 +188,7 @@ font-size: 2rem;
 /* INICIO DA MAIN TERCEIRA PARTE */
 .main_container_inferior {
     width: 41%;
-    height: 90vh;
+    height: 120vh;
     border: 2px solid rgb(194, 14, 104);
     /* apagar apos ajuste */
     display: flex;
@@ -196,7 +196,7 @@ font-size: 2rem;
     flex-direction: column;
     align-items: flex-start;
     column-gap: 50px;
-    padding: 30px;
+    padding: 10px;
     position: relative;
     margin-top: -50
 }
@@ -206,6 +206,7 @@ font-size: 2rem;
     justify-content: space-around;
     flex-direction: column;
     line-height: 5vh;
+    font-size: 0.7rem;
 }
 .label {
     font-weight: bold;
@@ -213,10 +214,21 @@ font-size: 2rem;
 .input {
     width: 41vw;
     height: 5vh;
-    border: 1px solid #5a5a5c;
-    border-radius: 8px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
     margin-bottom: 2vh;
+}
+.select {
+    background-color: #e9e9ed;
+}
+.impact_w {
+    line-height: 3vh;
+    margin: 2vh 0;
 }
 .obrigatorio {
     color: #e63d27;
+}
+.btn_get {
+    align-self: center;
+    margin-top: 2vh;
 }
