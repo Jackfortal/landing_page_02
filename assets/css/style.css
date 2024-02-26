@@ -5,13 +5,14 @@
 }
 body {
     width: 100vw;
-    height: 584vh;
+    height: 784vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
     width: 100%;
-    height: 75vh;
+    height: 85vh;
     background-color: #f4f4f4;
+    border: 2px solid limegreen;
 }
 .head_sup_container {
     width: 100%;
@@ -50,7 +51,7 @@ header {
 }
 .head_sub_container_box {
     width: 60vw;
-    height: 65vh;
+    height: 100vh;
     margin-left: 10vw;
     display: flex;
     justify-content: space-between;
@@ -107,19 +108,20 @@ h3 {
     background-color: #e63d27;
     margin-top: 30px;
 }
-/* INICIO DA MAIN - PRIMEIRA PARTE */
+/* INICIO DA MAIN */
 main {
     width: 100%;
-    height: 500vh;
+    height: 290vh;
     border: 2px solid red;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }
+/* INICIO DA MAIN PRIMEIRA PARTE */
 .main_container_superior {
     width: 60%;
-    height: 120vh;
+    height: auto;
     border: 2px solid rgb(10, 187, 33);
     display: flex;
     justify-content: space-between;
@@ -133,7 +135,7 @@ main {
     text-align: left;
 }
 .you_text_cont_sup {
-    margin: 4vh 0vh;
+    margin: 0vh 0vh 4vh;
 }
 .font_italic {
     font-style: italic;
@@ -165,43 +167,48 @@ ul li:before {
     font-weight: bold;
     margin-top: 2vh;
 }
+
 /* INICIO DA MAIN SEGUNDA PARTE */
+.main_container_inferior {
+    width: 100VW;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
 .gradiente_blue_a {
     width: 100vw;
     height: 35vh;
     background: linear-gradient(90deg, rgba(36,94,142,1) 0%, rgba(42,169,224,1) 100%);
-    /* position: absolute; */
-    ma
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.simply_title_container {
-    width: 41%;
-    height: 35vh;
-    background-color: #e63d27;
+
 }
 .h2_white {
-font-size: 2rem;
+    font-size: 2rem;
+    z-index: 1;
     /* color: white; */
 }
-/* INICIO DA MAIN TERCEIRA PARTE */
-.main_container_inferior {
+.main_container_inferior_b {
     width: 41%;
-    height: 120vh;
-    border: 2px solid rgb(194, 14, 104);
-    /* apagar apos ajuste */
+    height: 105vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: flex-start;
     column-gap: 50px;
     padding: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #0000007e;
+    border-top: 8px solid #0c83be;
+    z-index: 1;
     position: relative;
-    margin-top: -50
+    margin-top: -50px;
+    background-color: white;
 }
 .form_box {
-    width: ;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
