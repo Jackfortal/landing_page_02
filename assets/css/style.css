@@ -239,3 +239,24 @@ ul li:before {
     align-self: center;
     margin-top: 2vh;
 }
+footer {
+    width: 100vw;
+    height: auto;
+    background-color: #1d1d1f;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aab0b3;
+}
+.footer_part_top {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.list_a_box {
+
+}
+h5 {
+    color: white;
+}
+.no_content:before {
+    content: none;
+}
