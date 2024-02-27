@@ -309,6 +309,13 @@ h5 {
     /* border: 1px solid red; */
     white-space: nowrap;
 }
+.app_google_store_box {
+    width: 7.5vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 .app_google_store {
     width: 7.5vw;
     border-radius: 5px;
