@@ -5,21 +5,19 @@
 }
 body {
     width: 100vw;
-    height: 674vh;
+    height: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
     width: 100%;
     height: 80vh;
     background-color: #f4f4f4;
-    border: 2px solid limegreen;
 }
 .head_sup_container {
     width: 100%;
     height: 20vh;
     display: flex;
     column-gap: 10px;
-    background-color: white;
 }
 .head_logo_impact {
     width: 10%;
@@ -78,7 +76,7 @@ header {
     flex-direction: column;
 }
 .free_g {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #0c83be;
     font-weight: bold;
 }
@@ -112,7 +110,6 @@ h3 {
 main {
     width: 100%;
     height: 270vh;
-    border: 2px solid red;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -122,7 +119,6 @@ main {
 .main_container_superior {
     width: 60%;
     height: auto;
-    border: 2px solid rgb(10, 187, 33);
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -158,7 +154,7 @@ ul li:before {
     margin-right: 1vw;
 }
 .share_box {
-    width: 15vw;
+    width: 18vw;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -187,7 +183,8 @@ ul li:before {
 .h2_white {
     font-size: 2rem;
     z-index: 1;
-    /* color: white; */
+    color: white;
+    /* white */
 }
 .main_container_inferior_b {
     width: 41%;
@@ -199,7 +196,7 @@ ul li:before {
     column-gap: 50px;
     padding: 10px;
     -webkit-box-shadow: 5px 5px 15px 5px #000000; 
-    box-shadow: 5px 5px 15px 5px #0000007e;
+    box-shadow: 5px 5px 15px 5px #00000027;
     border-top: 8px solid #0c83be;
     z-index: 1;
     position: relative;
@@ -239,7 +236,7 @@ ul li:before {
 }
 footer {
     width: 100vw;
-    height: 120vh;
+    height: 90vh;
     background-color: #1d1d1f;
     font-family: Arial, Helvetica, sans-serif;
     color: #aab0b3;
@@ -253,7 +250,7 @@ footer {
     height: 55vh;
     display: flex;
     justify-content: space-between;
-    background-color: #001f36;
+    /* background-color: #001f36; */
 }
 .footer_part_mid {
     width: 70%;
@@ -261,14 +258,14 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1c5560;
+    /* background-color: #1c5560; */
 }
 .footer_part_botton {
     width: 70%;
-    height: 50vh;
+    height: 15vh;
     display: flex;
     justify-content: space-between;
-    background-color: #79ae92;
+    /* background-color: #79ae92; */
 }
 h5 {
     color: white;
@@ -282,7 +279,7 @@ h5 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     white-space: nowrap;
 }
 .ul_footer {
@@ -294,14 +291,14 @@ h5 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     white-space: nowrap;
 }.list_c_box {
     width: 17vw;
     display: flex;
     justify-content: left;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     white-space: nowrap;
     row-gap: 30px;
 }.list_d_box {
@@ -309,7 +306,7 @@ h5 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     white-space: nowrap;
 }
 .app_google_store {
@@ -334,4 +331,50 @@ h5 {
     height: 1px;
     background-color: #c6ced1;
 }
-
+.footer_part_botton_left {
+    width: 15vw;
+    /* border: 1px solid red; */
+    font-size: 0.8rem;
+    line-height: 1rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer_part_botton_mid {
+    width: 30vw;
+    /* border: 1px solid red; */
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+}
+.footer_part_botton_right {
+    width: 15vw;
+    /* border: 1px solid red; */
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 4px;
+    font-size: 0.8rem;
+    line-height: 1.3rem
+}
+.impact_log_footer {
+    width: 7vw;
+}
+.five_star_box {
+    width: 6vw;
+    display: flex;
+    justify-content: space-between;
+}
+.implementing_bold {
+    font-weight: bold;
+}
+.underline {
+    text-decoration: underline;
+}
